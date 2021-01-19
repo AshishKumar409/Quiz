@@ -1,0 +1,155 @@
+
+
+:root{
+ background-color: rgb(230, 237, 240);
+ font-size: 62.5%;
+ 
+}
+
+*{
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+ margin: 0;
+ padding: 0;
+ color:#333
+}
+
+h1,h2,h3,h4{
+  margin-bottom: 1rem;
+}
+
+
+h1{
+  font-size: 5.4rem;
+  color: #272727;
+  margin-bottom: 5rem;
+}
+
+h1>span{
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+h2{
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+h3{
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  
+  
+}
+
+.container> *{
+  width: 100%;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center{
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.text-align{
+  align-items: center;
+}
+
+.hidden{
+  display: none;
+}
+
+.btn{
+  margin-bottom: 1rem;
+  width: 20rem;
+  text-align: center;
+  text-decoration: none;
+  border: 0.2rem solid #272727;
+  padding: 1rem 0;
+  border-radius: 3rem;
+  font-size: 1.8rem;
+  color: #272727;
+  background-color:rgb(224, 249, 255);
+  transition: transform 150ms; 
+}
+
+.btn:hover{
+  cursor: pointer;
+  color: #fff;
+  background-color:#272727;
+  box-shadow: 0 0.2rem 0.5rem 0 rgba(30, 30, 31, 0.5) ;
+  transform: translateY(-0.05rem);
+  
+}
+
+.btn[disabled]:hover{
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  margin-bottom: 2rem;
+  width: 18rem;
+  height: 5rem;
+  font-size: 1.8rem;
+  outline: none;
+  border: none;
+  text-align: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.2rem 0.5rem 0 rgba(30, 30, 31, 0.5);
+}
+
+.saveScoreBtn,.saveName{
+  outline: none;
+}
+
+span{
+  color:darkcyan;
+}
+
+h2.name{
+ text-transform: capitalize;
+}
+
+span.warning{
+  
+  color:dodgerblue;
+  margin-bottom: 0.4rem;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: all 150ms;
+}
+
+
