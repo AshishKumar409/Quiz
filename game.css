@@ -79,6 +79,15 @@
   width: 20rem;
 }
 
+.question{
+  border: 0.2rem solid ;
+  height:15rem;
+  padding-top: 1rem;
+  padding-left:0.5rem ;
+  padding-right:0.5rem ;
+  border-radius: 1rem;
+}
+
 div.progressBar {
   position: absolute;
   width: 20rem;
