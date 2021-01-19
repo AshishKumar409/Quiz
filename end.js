@@ -27,5 +27,5 @@ highScore.sort((a,b)=>b.score-a.score)
 highScore.splice(5)
 
 localStorage.setItem('HighScore',JSON.stringify(highScore))
-window.location.assign('/index.html')
+window.location.assign('./index.html')
 }
