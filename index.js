@@ -21,5 +21,5 @@ saveName=(e)=>{
   e.preventDefault()
   
   localStorage.setItem('PlayerName',playerName)
-  window.location.assign('./game.html')
+  window.location.assign('/game.html')
 }
