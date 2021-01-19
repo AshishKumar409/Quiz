@@ -19,7 +19,7 @@ input.addEventListener('keyup',()=>{
 
 saveName=(e)=>{
   e.preventDefault()
-  console.log('clicked');
+  
   localStorage.setItem('PlayerName',playerName)
-  window.location.assign('/game.html')
+  window.location.assign('./game.html')
 }
