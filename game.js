@@ -70,7 +70,7 @@ let startGame = ()=>{
 
 let getQuestion = ()=>{
   if(availableQuestions.length===0||questionCounter>MAX_QUESTIONS){
-    window.location.assign('/end.html')
+    window.location.assign('./end.html')
   }
   questionCounter++
   progressBar.style.width = questionCounter<MAX_QUESTIONS?`${(questionCounter/MAX_QUESTIONS)*100}%`:'100%'
